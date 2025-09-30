@@ -5,7 +5,7 @@ class Shape(ABC):
 
     @abstractmethod
     def area(self):
-        return
+        pass
 
 
 class Rectangle(Shape):
